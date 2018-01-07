@@ -12,7 +12,7 @@ Example:
 ```import * as fs from 'fs'
 import { mwriter } from 'mongo-stream-writer'
 
-const infile = './data/file_with_json_object_arrays.json'
+const infile = './data/file_with_json_objects.json'
 
 const dbString = 'mongodb://foo:bar@example.com/yourdb?authSource=yourdb'
 const collection = 'foobarcollection'
